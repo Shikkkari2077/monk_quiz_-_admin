@@ -1,0 +1,121 @@
+.add-ques{
+    padding: 30px;
+}
+.add-ques h1{
+    margin-bottom: 20px;
+}
+.post-form{
+    /* border: 1px solid black; */
+    padding: 20px;
+    border-radius: 10px;
+}
+.field-1,.field-2,.field-3,.field-4{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.option1,.option2,.option3,.option4{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    width:700px ;
+    margin-bottom: 20px;
+}
+.ans1,.ans2,.ans3,.ans4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 300px;
+    margin-bottom: 20px;
+
+}
+.question label{
+    width: 150px;
+    font-size: 22px;
+    font-weight: 700;
+    
+    
+}
+.question input{
+    /* font-family: 'Josefin Sans', sans-serif; */
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #a7bcb9;
+    border-radius: 10px;
+    margin-left: 8px;
+    
+}
+.question input::placeholder{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+.field-1 label,
+.field-2 label,
+.field-3 label,
+.field-4 label{
+    font-size: 18px;
+    font-weight: 700;
+}
+.field-1 .form-input,
+.field-2 .form-input,
+.field-3 .form-input,
+.field-4 .form-input{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-weight: 700; */
+    background-color: #a7bcb9;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+.field-1 .form-input::placeholder,
+.field-2 .form-input::placeholder,
+.field-3 .form-input::placeholder,
+.field-4 .form-input::placeholder{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.btns{
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+.clear-data{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 8px 18px;
+    /* font-weight: 700; */
+    background-color:#ef2f2a ;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s all ease;
+}
+.post-data{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 8px 18px;
+    /* font-weight: 700; */
+    background-color: #42b883;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s all ease;
+
+}
+.post-data:hover , .clear-data:hover{
+    background-color: rgba(0, 0, 0, 0.623);
+}

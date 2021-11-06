@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,100&display=swap');
+
+
+.landing-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:700px;
+    padding: 30px 20px;
+}
+.landing-left{
+    /* border: 1px solid black; */
+}
+.landing-right{
+    /* border: 1px solid black; */
+}
+.lr-pic{
+    height: 500px;
+}
+.land-head{
+    background: linear-gradient(90deg,#08888a,#fc00ff);
+    font-size: 80px;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-family: 'Poppins', sans-serif;
+}
+.landHead{
+    /* border: 1px solid black; */
+    font-size: 45px;
+    line-height: 80px;
+    margin: 20px;
+
+}
+.land-year{
+    margin: 20px;
+    margin-bottom: 70px;
+}
+.landYear{
+    color: #1a2329;
+    font-size: 60px;
+    font-weight: 700;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.landPara{
+    /* border: 1px solid black; */
+    margin: 20px;
+}
+.paraInfo{
+    /* font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    color: #3e4a61;
+    font-weight: 600;
+    font-size: 22px;
+}
+.landSignUp{
+    /* border: 1px solid black; */
+    margin: 100px 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+}
+.signUpBtn{
+    text-decoration: none;
+    padding: 20px 90px;
+    border: 3px solid white;
+    /* border-radius: 8px; */
+    transition: 0.5s all ease;
+    font-size: 20px;
+    outline: none;
+    color: white;
+    /* font-weight: bold; */
+    background:linear-gradient(90deg, #fc4a1a,#f7b733);
+}
+.signUpBtn:hover{
+    /* background: #f9c535; */
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+}

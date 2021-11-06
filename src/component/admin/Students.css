@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.student-data{
+    padding: 30px;
+    overflow: scroll;
+    
+}
+.std-header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+table{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    /* box-shadow: rgb(87, 86, 86) 1px 1px 15px; */
+}
+thead .f1,.f2{
+    text-align: left;
+    width: 250px;
+    /* border: black 1px solid; */
+    background: #283739;
+    color: white;
+    font-weight:normal;
+    padding: 8px 0;
+    font-size: 20px;
+}
+.f3{
+    text-align: left;
+    width:400px ;
+    font-size: 20px;
+    color: white;
+    font-weight:normal;
+    background: #283739;
+}
+.f4{
+    text-align: left;
+    width: 100px;
+    font-size: 20px;
+    font-weight:normal;
+    color: white;
+    background: #283739;
+}
+.f5{
+    text-align: left;
+    padding-left:10px ;
+    width: 50px;
+    /* border: black 1px solid; */
+    background: #283739;
+    font-size: 20px;
+    color: white;
+    font-weight:normal;
+}
+
+tbody th{
+    /* font-family: 'PT Sans', sans-serif; */
+    text-align: left;
+    padding-left:10px ;
+    width: 50px;
+    /* border: black 1px solid; */
+    font-size: 18px;
+    font-weight:normal;
+    border-top: #b2b2b3 solid 1px;
+
+}
+tbody .d{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0;
+    border-top: #b2b2b3 solid 1px;
+}
+tbody .bt{
+    border-top: #b2b2b3 solid 1px;
+}
+.btn-danger{
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+    height: 30px;
+    position: relative;
+    transition: 0.1s all ease;
+}
+.btn-danger:hover{
+    /* background: rgba(0, 0, 0, 0.384); */
+    height: 32px;
+}

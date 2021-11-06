@@ -1,0 +1,45 @@
+.admin-panel{
+    /* background-color:rgb(35, 104, 231); */
+    width: 100%;
+    min-height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.side-nav{
+    /* width: 200px; */
+    background: rgb(28, 29, 29);
+    height: 100%;
+    position: relative;
+}
+.side-nav-links{
+    list-style: none;
+    display: block;
+}
+.side-nav-links .side-item{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 10px;
+    /* border: 1px solid white; */
+    display: block;
+    font-size: 20px;
+    background: rgb(28, 29, 29);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.288);
+    transition: 0.2s all ease;
+}
+.side-nav-links .side-item:hover{
+    background-color: rgba(255, 255, 255, 0.103);
+    border-bottom: 5px solid #fff;
+}
+.activeAdmin{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 10px;
+    /* border: 1px solid white; */
+    display: block;
+    font-size: 20px;
+    background: rgb(28, 29, 29);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.288);
+    transition: 0.2s all ease;
+    background-color: rgba(255, 255, 255, 0.103);
+    border-bottom: 5px solid #fff;
+}
