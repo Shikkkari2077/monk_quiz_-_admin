@@ -24,6 +24,7 @@ const Navbar = () => {
       setIcon(true);
       setALogin(true);
     }
+    forceUpdate()
   }, []);
 
 

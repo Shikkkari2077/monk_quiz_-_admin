@@ -1,9 +1,13 @@
 import axios from "axios";
 import { React, useState, useEffect } from "react";
+import { Link, NavLink, useHistory } from "react-router-dom";
+import Navbar from "../navbar/Navbar";
 import Confirm from "./Confirm";
 import "./LogIn.css";
 
 const LogIn = () => {
+  let history = useHistory();
+ 
   useEffect(() => {
     document.title='Log In'
   }, [])
@@ -69,6 +73,7 @@ const LogIn = () => {
         setLogData(logData);
       }
     }
+    
   }, [errors]);
   console.log(logData);
 
@@ -82,12 +87,16 @@ const LogIn = () => {
     localStorage.setItem("Password", Password);
     localStorage.setItem("Fname", Fname);
     localStorage.setItem("UserName", UserName);
-    window.location.reload();
+    window.location.reload()
   }
 
   const authEmail = localStorage.getItem("Email");
   const authPass = localStorage.getItem("Password");
+  const Guest = localStorage.getItem("Fname");
+  const UName = localStorage.getItem("UserName");
   return (
+  <>
+    {/* <Navbar Guest={Guest} UName={UName}/> */}
     <div className="logInPage">
       <div className="log-Left">
         <img className="log-img" src="/img/login.jpg" alt="" />
@@ -127,7 +136,7 @@ const LogIn = () => {
               {errors.password && <p>{errors.password}</p>}
             </div>
             <div className="sign-up">
-              <button type="submit" className="SignUpBtn">
+              <button  type="submit" className="SignUpBtn">
                 Log In
               </button>
             </div>
@@ -135,6 +144,7 @@ const LogIn = () => {
         )}
       </div>
     </div>
+    </>
   );
 };
 

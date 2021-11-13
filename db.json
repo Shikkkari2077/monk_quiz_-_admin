@@ -1,0 +1,506 @@
+{
+  "schema": [
+    {
+      "fname": "Garima Singh",
+      "username": "_xx.garima_",
+      "email": "garima456@ymail.com",
+      "password": "852852",
+      "password2": "852852",
+      "id": 1
+    },
+    {
+      "fname": "Bob Marley",
+      "username": "bob_marley789",
+      "email": "bob.m444@gmail.com",
+      "password": "741852",
+      "password2": "741852",
+      "id": 2
+    },
+    {
+      "fname": "Tony Stark",
+      "username": "tony_stark",
+      "email": "tony.rdj3000@gamil.com",
+      "password": "rdj669",
+      "password2": "rdj669",
+      "id": 3
+    },
+    {
+      "fname": "Ankur Lal",
+      "username": "Ankur1997",
+      "email": "ankurlal.572@gmail.com",
+      "password": "787878",
+      "password2": "787878",
+      "id": 4
+    },
+    {
+      "fname": "Kapil Kumar",
+      "username": "shikkari#2077",
+      "email": "kapilprajapati061@gmail.com",
+      "password": "858585",
+      "password2": "858585",
+      "id": 5
+    },
+    {
+      "fname": "Eddy Brock",
+      "username": "eddy.venom69",
+      "email": "venom.brock69@hotmail.com",
+      "password": "895623",
+      "password2": "895623",
+      "id": 6
+    },
+    {
+      "fname": "Sani Singh",
+      "username": "sani.mnk009",
+      "email": "sani.singh851@gmail.com",
+      "password": "Cyberpunk2077",
+      "password2": "Cyberpunk2077",
+      "id": 7
+    },
+    {
+      "fname": "Vivek Kumar",
+      "username": "vivek_prp885",
+      "email": "vivek.kumar885@gmail.com",
+      "password": "789456123",
+      "password2": "789456123",
+      "id": 11
+    },
+    {
+      "fname": "vikas pal",
+      "username": "vikas_hiranwal_",
+      "email": "vpal8983@gmail.com",
+      "password": "7465988674",
+      "password2": "7465988674",
+      "id": 12
+    }
+  ],
+  "admin": [
+    {
+      "afname": "Kapil Kumar",
+      "ausername": "Shikkari_2077",
+      "aemail": "kapil061@monk.in",
+      "apassword": "CyberCity2077",
+      "id": 1
+    },
+    {
+      "afname": "Anurag Negi",
+      "ausername": "negi.anu_787",
+      "aemail": "anurag.singh@monk.in",
+      "apassword": "whatthefuck69",
+      "id": 2
+    },
+    {
+      "afname": "Ashish Saxena",
+      "ausername": "saxena_889",
+      "aemail": "ashish.676@monk.in",
+      "apassword": "rdj669",
+      "id": 3
+    }
+  ],
+  "question": [
+    {
+      "Question": "What is the capital of France?",
+      "answerOptions": [
+        {
+          "answerText": "New York",
+          "isCorrect": false
+        },
+        {
+          "answerText": "London",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Paris",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Dublin",
+          "isCorrect": false
+        }
+      ],
+      "id": 1
+    },
+    {
+      "id": 2,
+      "Question": "Who is CEO of Tesla?",
+      "answerOptions": [
+        {
+          "answerText": "Jeff Bezos",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Elon Musk",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Bill Gates",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Tony Stark",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "Question": "The iPhone was created by which company?",
+      "answerOptions": [
+        {
+          "answerText": "Apple",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Intel",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Amazon",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Microsoft",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "Question": "How many Harry Potter books are there?",
+      "answerOptions": [
+        {
+          "answerText": "1",
+          "isCorrect": false
+        },
+        {
+          "answerText": "4",
+          "isCorrect": false
+        },
+        {
+          "answerText": "6",
+          "isCorrect": false
+        },
+        {
+          "answerText": "7",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "Question": "What is the real name of Akshay Kumar?",
+      "answerOptions": [
+        {
+          "answerText": "Ravi Shastri",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Ajay Mehra",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Rajeev Bhatia",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Rajeev Gill",
+          "isCorrect": false
+        }
+      ],
+      "id": 5
+    },
+    {
+      "Question": "How much union territories are in India?",
+      "answerOptions": [
+        {
+          "answerText": "Six",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Eleven",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Twenty",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Eight",
+          "isCorrect": true
+        }
+      ],
+      "id": 6
+    },
+    {
+      "Question": "Who is the Owner of Instagram?",
+      "answerOptions": [
+        {
+          "answerText": "Jeff Bezos",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Mark Zuckerberg",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Bill Gates",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Elon Musk",
+          "isCorrect": false
+        }
+      ],
+      "id": 7
+    },
+    {
+      "Question": "What is the capital of India",
+      "answerOptions": [
+        {
+          "answerText": "Rajasthan",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Maharashtra",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Goa",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Delhi",
+          "isCorrect": true
+        }
+      ],
+      "id": 8
+    },
+    {
+      "Question": "What is the  full form of ISRO?",
+      "answerOptions": [
+        {
+          "answerText": "Indian Space Research Organisation",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Indian Sample Research Organisation",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Institute of Search & Research Oracle",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Institute of Server Railway Optimization",
+          "isCorrect": false
+        }
+      ],
+      "id": 9
+    },
+    {
+      "Question": "A computer cannot boot if it does not have the _____?",
+      "answerOptions": [
+        {
+          "answerText": "Compiler",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Loader",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Operating System",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Assembler",
+          "isCorrect": false
+        }
+      ],
+      "id": 10
+    },
+    {
+      "Question": "Transistors belong to which of the following generation of the computers?",
+      "answerOptions": [
+        {
+          "answerText": "Fourth",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Third",
+          "isCorrect": false
+        },
+        {
+          "answerText": "First",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Second",
+          "isCorrect": true
+        }
+      ],
+      "id": 11
+    },
+    {
+      "Question": "Which of the following is not a softcopy devices?",
+      "answerOptions": [
+        {
+          "answerText": "Plotter  ",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Projector  ",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Monitor  ",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Speaker  ",
+          "isCorrect": false
+        }
+      ],
+      "id": 12
+    },
+    {
+      "Question": "Which company makes Desktop Processors?",
+      "answerOptions": [
+        {
+          "answerText": "Snapdragon",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Gigabyte",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Intel",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Google",
+          "isCorrect": false
+        }
+      ],
+      "id": 13
+    },
+    {
+      "Question": "Which one is considered as India's first supercomputer?",
+      "answerOptions": [
+        {
+          "answerText": "Aditya",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Vikram-100",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Param 8000",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Shastra T",
+          "isCorrect": false
+        }
+      ],
+      "id": 14
+    },
+    {
+      "Question": "Which function key is used for opening help?",
+      "answerOptions": [
+        {
+          "answerText": "F1",
+          "isCorrect": false
+        },
+        {
+          "answerText": "F2",
+          "isCorrect": true
+        },
+        {
+          "answerText": "F4",
+          "isCorrect": false
+        },
+        {
+          "answerText": "F3",
+          "isCorrect": false
+        }
+      ],
+      "id": 15
+    },
+    {
+      "Question": "Which of the following is an extension of a temporary file?",
+      "answerOptions": [
+        {
+          "answerText": " .tmp",
+          "isCorrect": true
+        },
+        {
+          "answerText": ".tar",
+          "isCorrect": false
+        },
+        {
+          "answerText": ".tar",
+          "isCorrect": false
+        },
+        {
+          "answerText": ".txt",
+          "isCorrect": false
+        }
+      ],
+      "id": 16
+    },
+    {
+      "Question": "In HTML, ___________ tag is used to specify each item displayed in the list.",
+      "answerOptions": [
+        {
+          "answerText": "<SELECT>",
+          "isCorrect": false
+        },
+        {
+          "answerText": "<OPTION>",
+          "isCorrect": true
+        },
+        {
+          "answerText": "<INPUT>",
+          "isCorrect": false
+        },
+        {
+          "answerText": "<TEXTAREA>",
+          "isCorrect": false
+        }
+      ],
+      "id": 17
+    },
+    {
+      "Question": "Who is called Elon Musk of India?",
+      "answerOptions": [
+        {
+          "answerText": "Mukesh Ambani",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Adani",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Anurag Singh Negi",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Kapil",
+          "isCorrect": false
+        }
+      ],
+      "id": 18
+    }
+  ],
+  "contactUs": [
+    {
+      "id": 1,
+      "fname": "Kapil Kumar",
+      "email": "kapilprajapti061@gmail.com",
+      "phone": "9149072143",
+      "message": "Hey its done perfectly"
+    }
+  ]
+}
