@@ -1,8 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Monk Quiz & Admin](https://yk5ms.csb.app/).
+###This project was bootstrapped with [Monk Quiz & Admin](https://yk5ms.csb.app/).
 
-## As user u can Click Enroll Now button for Sign Up
+## As user u can click Enroll Now button for sign up
 ## NOTE : 
 #### First clone this repository after then run npm install to install all packges required. Then run this command "npm run start-dev" to run data server and front end concurrently.
 
